@@ -1,5 +1,5 @@
 {
-  "name": "@trionesdev/form-designer-react",
+  "name": "@portalzyt/form-designer-react",
   "version": "0.0.1-beta.11",
   "description": "form-design-react",
   "module": "dist/esm/index.js",

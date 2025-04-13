@@ -1,5 +1,5 @@
 import { Button, Flex, Space } from 'antd';
-import { useFormDesigner } from '@trionesdev/form-designer-react';
+import { useFormDesigner } from '@portalzyt/form-designer-react';
 import { FC } from 'react';
 
 type DesignerToolsProps = {

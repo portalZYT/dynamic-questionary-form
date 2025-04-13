@@ -1,4 +1,4 @@
-import { DesignerCore, TdFC } from '@trionesdev/form-designer-react';
+import { DesignerCore, TdFC } from '@portalzyt/form-designer-react';
 import React from 'react';
 import { Select as FormilySelect } from '@formily/antd-v5';
 import createResource = DesignerCore.createResource;
