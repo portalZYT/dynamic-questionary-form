@@ -1,5 +1,5 @@
 {
-  "name": "@portalxsk/form-designer-react",
+  "name": "@portalzyt/form-designer-react",
   "version": "0.0.1",
   "description": "form-design-react",
   "module": "dist/esm/index.js",
@@ -42,5 +42,5 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "gitHead": "cb8d6a6949a39de7b9b64dcc9be3054aca20944b"
+  "gitHead": "b07ce616d5a257756ceaec44ca02522ba2fdcec8"
 }

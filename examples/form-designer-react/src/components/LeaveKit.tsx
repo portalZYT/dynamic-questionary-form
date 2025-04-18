@@ -1,4 +1,4 @@
-import { TdFC } from '@portalxsk/form-designer-react';
+import { TdFC } from '@portalzyt/form-designer-react';
 
 export const LeaveKit:TdFC = () => {
   return <></>;

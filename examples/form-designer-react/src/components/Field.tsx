@@ -4,10 +4,10 @@ import {
   IComponents,
   TdFC,
   useFormDesigner,
-} from '@portalxsk/form-designer-react';
+} from '@portalzyt/form-designer-react';
 import _ from 'lodash';
 import { toJS } from '@formily/reactive';
-import { useComponents } from '@portalxsk/form-designer-react';
+import { useComponents } from '@portalzyt/form-designer-react';
 
 const SchemaStateMap = {
   title: 'title',

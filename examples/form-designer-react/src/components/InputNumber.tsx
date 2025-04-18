@@ -1,5 +1,5 @@
 import { NumberPicker as FormilyInputNumber } from '@formily/antd-v5';
-import { DesignerCore, TdFC } from '@portalxsk/form-designer-react';
+import { DesignerCore, TdFC } from '@portalzyt/form-designer-react';
 import React from 'react';
 import createResource = DesignerCore.createResource;
 export const InputNumber: TdFC<
