@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "dynamic-questionary-form",
   "private": true,
   "workspaces": [
     "packages/*",
