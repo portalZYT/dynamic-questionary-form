@@ -11,9 +11,7 @@
     "prepublishOnly": "father doctor && npm run build"
   },
   "keywords": [],
-  "authors": [
-    "fengxiaotx@163.com"
-  ],
+  "authors": [],
   "license": "MIT",
   "files": [
     "dist",
@@ -42,5 +40,5 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "gitHead": "b07ce616d5a257756ceaec44ca02522ba2fdcec8"
+  "gitHead": "f0cbe351ca98eaf4a4ea424d5055fa341d47798f"
 }
