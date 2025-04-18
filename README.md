@@ -5,3 +5,6 @@
 ## 快速开始
 
    二次开发的
+
+   lerna version --no-private
+   lerna publish from-package
