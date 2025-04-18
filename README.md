@@ -16,30 +16,30 @@ dynamic-questionaries develop packages
   lerna version 改变版本号
 
   1. 正确检查 Scope 的权限
-要检查 @portalxsk Scope 的权限，可以使用以下命令：
+要检查 @portalzyt Scope 的权限，可以使用以下命令：
 
-npm access list packages @portalxsk
-这将列出你在 @portalxsk Scope 下有权限管理的包。
+npm access list packages @portalzyt
+这将列出你在 @portalzyt Scope 下有权限管理的包。
 
 2. 检查单个包的权限
-如果你想检查某个具体包（例如 @portalxsk/designable-formily-setters）的权限，可以运行：
+如果你想检查某个具体包（例如 @portalzyt/designable-formily-setters）的权限，可以运行：
 
-npm access list collaborators @portalxsk/designable-formily-setters
+npm access list collaborators @portalzyt/designable-formily-setters
 这将列出该包的所有 Collaborators 和权限级别。
 
 3. 验证 Scope 的注册表配置
-确保 @portalxsk Scope 的注册表配置正确。运行以下命令：
+确保 @portalzyt Scope 的注册表配置正确。运行以下命令：
 
-npm config get @portalxsk:registry
+npm config get @portalzyt:registry
 如果返回 undefined，需要配置：
-npm config set @portalxsk:registry https://registry.npmjs.org/
+npm config set @portalzyt:registry https://registry.npmjs.org/
 4. 验证登录状态
-确保你已登录到 NPM，并且登录的用户有权限发布到 @portalxsk Scope：
+确保你已登录到 NPM，并且登录的用户有权限发布到 @portalzyt Scope：
 
 npm whoami
 如果返回你的用户名，说明已登录。
 如果未登录，请运行以下命令重新登录：
-npm login --scope=@portalxsk --registry=https://registry.npmjs.org/
+npm login --scope=@portalzyt --registry=https://registry.npmjs.org/
 5. 手动发布测试
 尝试手动发布一个包，排除 lerna 的问题。进入 setters 目录，运行以下命令：
 
@@ -58,7 +58,7 @@ npx lerna clean
 npx lerna bootstrap
 npx lerna publish from-package --yes --registry=https://registry.npmjs.org/ --loglevel verbose
 总结
-使用正确的命令检查权限：npm access list packages @portalxsk。
+使用正确的命令检查权限：npm access list packages @portalzyt。
 确保 Scope 的注册表配置正确。
 验证登录状态和权限。
 手动发布测试，排除 lerna 的问题。
