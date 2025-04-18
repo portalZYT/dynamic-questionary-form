@@ -23,7 +23,7 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
     "paths": {
-      "@portalzyt/form-designer-react": [
+      "@portalxsk/form-designer-react": [
         "../../packages/form-designer-react/src"
       ]
     }

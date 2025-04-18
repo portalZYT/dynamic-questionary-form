@@ -2,7 +2,7 @@ import {
   DesignerCore,
   TdFC,
   useFormDesigner,
-} from '@portalzyt/form-designer-react';
+} from '@portalxsk/form-designer-react';
 import React, { useMemo } from 'react';
 import { Form as FormilyForm } from '@formily/antd-v5';
 import { createForm } from '@formily/core';

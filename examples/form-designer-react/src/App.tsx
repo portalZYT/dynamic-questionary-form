@@ -9,7 +9,7 @@ import {
     ViewPanel,
     ViewportPanel,
     WorkspacePanel,
-} from '@portalzyt/form-designer-react';
+} from '@portalxsk/form-designer-react';
 import {
     Field,
     Form,

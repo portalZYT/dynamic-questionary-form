@@ -3,7 +3,7 @@ import {
   TdFC,
   useFormDesigner,
   useTree,
-} from '@portalzyt/form-designer-react';
+} from '@portalxsk/form-designer-react';
 import React from 'react';
 import { FormGrid as FormilyGrid } from '@formily/antd-v5';
 import _ from 'lodash';

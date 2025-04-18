@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@portalzyt/form-designer-react': path.resolve(
+      '@portalxsk/form-designer-react': path.resolve(
         __dirname,
         '../../packages/form-designer-react/src',
       ),

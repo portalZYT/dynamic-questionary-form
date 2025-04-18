@@ -1,4 +1,4 @@
-import { SettingsPanel } from '@portalzyt/form-designer-react';
+import { SettingsPanel } from '@portalxsk/form-designer-react';
 import {
   Form,
   FormItem,
