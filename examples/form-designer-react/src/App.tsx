@@ -23,7 +23,7 @@ import {
 } from './components';
 import {AntdSettingsPanel} from './AntdSettingsPanel';
 import * as icons from './Icons';
-import {message, Modal, Watermark} from 'antd';
+import {Button, message, Modal, Watermark} from 'antd';
 import './App.css';
 import {DesignerTools} from './DesignerTools.tsx';
 import {Preview} from './Preview.tsx';
@@ -79,11 +79,11 @@ function App() {
     GlobalStore.registerIcons(icons);
     return (
         <div className="App">
-            <Watermark style={{height: '100%', display: 'flex', flexDirection: 'column'}} content={['']}>
+            <Watermark style={{height: '100%', display: 'flex', flexDirection: 'column'}} content={['销深客']}>
                 <div style={{padding: 8,display:'flex',justifyContent:'space-between',borderBottom: '1px solid #ccc'}}>
-                    <span>Triones Form Designer</span>
+                    <span>动态问卷创建</span>
                     <div>
-                        <a href={`https://github.com/trionesdev/triones-form-designer`} target={'_blank'}>Github</a>
+                        <Button type='primary'>保存</Button>
                     </div>
                 </div>
                 <div style={{flex: 1}}>
@@ -103,7 +103,7 @@ function App() {
                             });
                         }}
                         beforeItemDelete={(item) => {
-                            console.log(item);
+                            console.log('beforeItemDelete',item);
                             if (item.schema['x-component'] === 'InputNumber') {
                                 message.error('InputNumber 组件不能被删除');
                                 return false;
@@ -118,10 +118,10 @@ function App() {
                                     title={`基础组件`}
                                     sources={[Input, Select, Password, InputNumber, DatePicker, TimePicker]}
                                 />
-                                <ResourceWidget
+                                {/* <ResourceWidget
                                     title={`增强组件`}
                                     sources={[]}
-                                />
+                                /> */}
                             </CompositePanel>
                             <WorkspacePanel>
                                 <div>
